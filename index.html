@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="icon" href="/sources/img/favicon/logo_white.ico">
+    <link rel="stylesheet" href="style.css">
+    <!-- Libreria de  -->
+    <script src="https://kit.fontawesome.com/27a39c6c3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- <img src="/sources/img/logos/logo_white.png" alt=""> -->
+        <a href="#" class="logo" >Logo</a>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Información</a></li> 
+            <li><a href="#">Sistemas Operativos</a></li> 
+            <li><a href="#">Acerca</a></li> 
+            <li><a href="#">Noticias</a></li> 
+            <!-- <li>
+                <div class="bars__menu">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
+            </li> -->
+        </ul>
+        
+    </header>
+
+    <section class="banner">
+        <div class="redes-container">
+            <ul>
+                <li><a href="#" class="facebook" target="_blank" ><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#" class="twitter" target="_blank" ><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" class="whatsapp" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#" class="instagram" target="_blank" ><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript"> 
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+
+<!-- <div class="container__banner">
+    <div class="banner-texto">
+        <div class="icon">
+            <img src="/sources/img/logos/megaphone.png" id="icon_voz" alt="">
+        </div>
+        <div class="img__icon-mail">
+            <img src="/sources/img/logos/email.png" id="icon_mail" alt="">
+        </div>
+
+        <div class="text">
+            <h2>LNo se que poner por 10000</h2>
+            <input type="button" value="Leer más">
+        </div>
+    </div>
+</div> -->
+<script src="/script.js"></script>
+
+
+
+</body>
+
+<!-- footer -->
+<footer class="pdp">
+    <div class="gr1">
+        <!--LOGO-->
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="/sources/img/logos/logo_white.png"alt="logo">
+                </a>
+            </figure>
+        </div>
+        <!--TEXTO-->
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis libero eum eligendi in fugit dicta explicabo earum distinctio asperiores alias reiciendis fuga excepturi esse error itaque, ad, et cumque. Officia?</p>
+        </div>
+        <!--REDES SOCIALES-->
+        <div class="box">
+            <h2>REDES SOCIALES</h2>
+            <div class="redsocial">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa-brands fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+            </div>
+        </div>
+    </div>
+    <!--COPY-->
+    <div class="gr2">
+        <small>&copy; 2022 <b>Nombre de la pagina que no se xD</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+</html>
